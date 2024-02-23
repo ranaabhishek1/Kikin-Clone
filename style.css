@@ -51,6 +51,9 @@ background-color: var(--page1Background);
     gap: 20vw;
     position: fixed;
     z-index: 3;
+    background-color: #122315;
+    height: 15vh;
+    width: 100%;
 }
 
 .left-nav img{
@@ -79,7 +82,7 @@ background-color: var(--page1Background);
 }
 
 .right-nav{
-margin-top: 5vh;
+margin-top: 3vh;
 }
 
 .nav-btn1{
@@ -94,6 +97,7 @@ margin-top: 5vh;
     border: 0.2px solid #ffffff4d;
     font-family: poppins;
     cursor: pointer;
+    
 }
 
 .nav-btn1:hover{
@@ -101,9 +105,10 @@ margin-top: 5vh;
 }
 
 .nav-btn2{
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     text-transform: uppercase;
-    padding: 0.8vw 1.3vw;
+    padding: 0.7vw 1vw;
+    padding-top: 1vw;
     border-radius: 10px;
     background-color: #55DD4A;
     color: #000;
@@ -161,6 +166,239 @@ letter-spacing: -4px;
     background-color: #55DD4A;
     font-family: poppins;
     border-radius: 10px;
-    margin-left: 43vw;
+    margin-left: 40vw;
     margin-top: 4vh;
 }
+
+/* page1 end */
+
+/* page 2 start  */
+
+#page2{
+    height: 150vh;
+    width: 100%;
+    background-color: #F3EDE4;
+}
+
+
+.page2-text h2{
+    font-size: 8vw;
+    font-family: main;
+    text-transform: uppercase;
+    line-height: 100px;
+    text-align: center;
+    padding-top: 30vh;
+}
+
+.page2-text p{
+    text-align: center;
+    text-wrap: wrap;
+    font-family: poppins;
+    font-weight: 100;
+    margin-left: 25vw;
+    margin-right: 30vw;
+    margin-top: 5vh;
+}
+
+
+.page2-btn button{
+    font-size: 1.3vw;
+    text-transform: uppercase;
+    padding: 1.2vw 1.7vw;
+    border: none;
+    background-color: #55DD4A;
+    font-family: poppins;
+    border-radius: 10px;
+    margin-left: 40vw;
+    margin-top: 7vh;
+}
+
+.page2-text img{
+    height: 30vh;
+    opacity: 1;
+}
+
+.page2-text img:nth-child(1){
+    margin-top: 27vh;
+    height: 30vh;
+}
+
+
+.page2-text img:nth-child(2){
+    margin-left: 85vw;
+    height: 28vh;
+    margin-top: -36vh;
+}
+
+
+#page2 img{
+    position: absolute;
+}
+
+.page2-images img{
+    height: 20vh;
+}
+
+.page2-images img:nth-child(1){
+    height: 28vh;
+    margin-top: -80vh;
+    margin-left: 83vw;
+}
+
+.page2-images img:nth-child(3){
+    height: 28vh;
+    margin-left: 75vw;
+}
+
+/* end page2 */
+
+/* start page3 */
+
+#page3{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #F3EDE4;
+    padding: 0 3vw;
+    overflow-x: hidden;
+    
+}
+    
+.page3-part1{
+    display: flex;
+    gap: 15vw;
+    margin-top: vh;
+    border-bottom: 1px solid #8d8181;
+    padding-bottom: 8vh;
+    
+}
+
+.page3-part1 h3{
+    font-size: 5vw;
+    color: #122315;
+    font-family: main;
+    text-transform: uppercase;
+    margin-left: 3vw;
+    margin-top: 12vh;
+    line-height: 12vh;
+    font-weight: 600;
+    text-wrap: nowrap;
+}
+
+.page3-part1 img{
+    height: 65vh;
+    border-radius: 10px;
+}
+
+.page3-part1-content p{
+    font-family: poppins;
+    text-wrap: wrap;
+    margin-left: 3vw;
+    margin-right: 50vw;
+    margin-top: -15vh;
+    
+}
+
+/* ++++++ */
+
+.counting2{
+    padding: 0.8vw 1vw;
+    font-family:poppins;
+    font-weight: 600;
+    border-radius: 50%;
+    background-color: #55DD4A;
+    display: inline;
+    margin-left: 3vw;
+    margin-top: 20vh;
+}
+
+.page3-part2{
+    display: flex;
+    gap: 15vw;
+    margin-top: 10vh;
+    border-bottom: 1px solid #8d8181;
+    padding-bottom: 8vh;
+    
+}
+
+.page3-part2 h3{
+    font-size: 5vw;
+    color: #122315;
+    font-family: main;
+    text-transform: uppercase;
+    margin-left: 3vw;
+    margin-top: 12vh;
+    line-height: 12vh;
+    font-weight: 600;
+    text-wrap: nowrap;
+}
+
+.page3-part2 img{
+    height: 65vh;
+    border-radius: 10px;
+}
+
+.page3-part2-content p{
+    font-family: poppins;
+    text-wrap: wrap;
+    margin-left: 3vw;
+    margin-right: 50vw;
+    margin-top: -15vh;
+    
+}
+
+/* ++++ */
+
+
+.counting3{
+    padding: 0.8vw 1vw;
+    font-family:poppins;
+    font-weight: 600;
+    border-radius: 50%;
+    background-color: #55DD4A;
+    display: inline;
+    margin-left: 3vw;
+    
+}
+
+.page3-part3{
+    display: flex;
+    gap: 15vw;
+    margin-top: -5vh;
+    border-bottom: 1px solid #8d8181;
+    padding-bottom: 8vh;
+    
+}
+
+.page3-part3 h3{
+    font-size: 5vw;
+    color: #122315;
+    font-family: main;
+    text-transform: uppercase;
+    margin-left: 3vw;
+    margin-top: 17vh;
+    line-height: 12vh;
+    font-weight: 600;
+    text-wrap: nowrap;
+}
+
+.page3-part3 img{
+    height: 65vh;
+    border-radius: 10px;
+}
+
+.page3-part3-content p{
+    font-family: poppins;
+    text-wrap: wrap;
+    margin-left: 3vw;
+    margin-right: 50vw;
+    margin-top: -15vh;
+    
+}
+
+
+
+
+
+
+
+/* end page3 */
