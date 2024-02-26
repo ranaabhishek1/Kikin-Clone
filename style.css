@@ -183,12 +183,13 @@ letter-spacing: -4px;
 
 
 .page2-text h2{
-    font-size: 8vw;
+    font-size: 7.5vw;
     font-family: main;
     text-transform: uppercase;
     line-height: 100px;
     text-align: center;
     padding-top: 30vh;
+    text-wrap: wrap;
 }
 
 .page2-text p{
@@ -649,14 +650,14 @@ margin-bottom: 0.5vw;
     min-height: 100vh;
     width: 100%;
     background-color: #73D3EB;
-    padding-bottom: 15vh;
+    padding-bottom: 10vh;
 }
 
 .page5-image{
     border-bottom: 1px solid #000;
 }
 
-#page5 img{
+.page5-image img{
     height: 100vh;
     width: 93vw;
     margin-top: 10vh;
@@ -750,6 +751,139 @@ margin-bottom: 0.5vw;
     color: #122315;
     line-height: 28px;
 }
+.page5-last{
+    display: flex;
+    justify-content: space-around;
+}
+
+.page5-last img{
+    height: 5vh;
+    margin-top: 10vh;
+}
+
 
 
 /* end page5 */
+
+/* start Mobile Responsive Part  */
+
+@media (max-width:420px) {
+    
+
+
+.center-nav{
+    display: none;
+}
+
+.right-nav{
+    display: none;
+}
+
+.left-nav{
+    margin-left: 30vw;
+}
+
+.navbar{
+    border-bottom: 1px solid #5f5f5f;
+}
+
+.page1-text h1{
+    font-size: 14.5vw;
+    line-height: 8vh;
+    font-family: main;
+    text-transform: uppercase;
+    margin-left: 4vw;
+    letter-spacing: 1px;
+    margin-top: 5vh;
+    
+}
+
+.page1-text p{
+    margin-left: 8vw;
+    margin-top: 4vh;
+    text-wrap: wrap;
+    color: #fff;
+    font-family: secondary;
+    margin-right: 5vw;
+    line-height: 4vh;   
+}
+
+.page1-text button{
+    font-size: 5vw;
+    padding: 3vw 4vw;
+    border: none;
+    margin-left: 29vw;
+    margin-top: 4vh;
+}
+
+/* page2 */
+
+#page2{
+    height: 100vh;
+    width: 100%;
+}
+.page2-text img{
+    
+    height: 14vh;
+    margin-left: -11vw;
+    margin-top: 22vh;
+    
+}
+
+.page2-text img:nth-child(1){
+    height: 15vh;
+    margin-top: 5vh;
+    margin-left: -8vw;
+}
+
+
+.page2-text img:nth-child(2){
+    height: 15vh;
+    margin-top: -63vh;
+}
+
+.page2-images img:nth-child(3) {
+    height: 15vh;
+    margin-top: 0vh;
+    margin-left: 78vw;
+}
+
+.page2-images img{
+    height: 20vh;
+}
+
+.page2-images img:nth-child(1) {
+    margin-top: 15vh;
+    margin-left: 33vw;
+}
+
+.page2-text h2{
+    font-size: 12vw;
+    font-family: main;
+    text-transform: uppercase;
+    line-height: 60px;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+.page2-text p{
+    text-align: center;
+    text-wrap: wrap;
+    font-family: poppins;
+    font-weight: 100;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vh;
+}
+
+.page2-btn button{
+    font-size: 5vw;
+    padding: 3vw 4vw;
+    border: none;
+    margin-left: 29vw;
+    margin-top: 4vh;
+}
+
+}
+
+/* End Mobile Responsive Part  */
