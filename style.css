@@ -214,7 +214,7 @@ letter-spacing: -4px;
 
 .page2-text img{
     height: 30vh;
-    opacity: 1;
+    
 }
 
 .page2-text img:nth-child(1){
@@ -1023,8 +1023,6 @@ background-size: contain;
     color: #fff;
     font-family: poppins;
     text-wrap: nowrap;
-    
- 
 }
 
 
