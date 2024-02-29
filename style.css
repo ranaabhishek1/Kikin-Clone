@@ -13,9 +13,6 @@
     src: url(fonts/Poppins.ttf);
 }
 
-
-
-
 :root{
     --page1Background: #122315;
     --textColor:#fff;
@@ -1036,10 +1033,6 @@ background-size: contain;
 
 @media (max-width:420px) {
 
-html,body{
-    
-}
-
     #page1{
         width: 100%;
         overflow: hidden;
@@ -1060,6 +1053,8 @@ html,body{
 
 .navbar{
     border-bottom: 1px solid #5f5f5f;
+    position: fixed;
+    z-index: 10;
 }
 
 .page1-text h1{
@@ -1725,20 +1720,23 @@ margin-bottom: 20vh;
 
 /* start page7 */
 #page7{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background-color: #fff;
     display: flex;
     gap: 5vw;
     flex-direction: column;
     overflow: hidden;
+    
+    
 }
 
 .page7-left img{
-    height: 60vh;
-    margin-top: 80vh;
+    height: 100vh;
+    margin-top: 40vh;
     border-radius: 5px;
-    margin-left: 6vw;
+    margin-left: 3vw;
+    opacity: 0;
 }
 
 .page7-right{
@@ -1779,6 +1777,7 @@ text-align: center;
     margin-top: 1vh;
     margin-left: 11vw;
     color: #000000d7;
+    
 }
 
 .page7-btn{
@@ -1826,44 +1825,47 @@ text-align: center;
 }
 
 #page8{
-    height: 130vh;
+    height: 120vh;
     width: 100%;
     background-color: #122315;
     background-image: url(https://assets-global.website-files.com/635273ea37c256ef2835d522/65363617f2f8b421dacfacc5_Illustration.svg);
 background-repeat: no-repeat;
-background-position-y: 38vh;
-background-size: contain;
-    margin-top: 80vh;
+background-position-y: 20vh;
+background-position-x: -350vw;
+background-size: cover;
     overflow: hidden;
+    position: absolute;
+    margin-top: -5vh;
 }
 
 .page8-heading h2{
  position: relative;   
- top: 25vh;
+ top: 8vh;
  font-family: main;
- margin-left: 26vw;
-    font-size: 7vw;
-    line-height: 48px;
+ margin-left: 10vw;
+    font-size: 13vw;
+    line-height: 40px;
     color: #F3EDE4;
     letter-spacing: -2px;
+    
 }
 
 .page8-heading h2:nth-child(3){
     color: #FFED52;
-    margin-left: 30vw;
+    margin-left: 10vw;
 }
 
 .page8-heading h2:nth-child(5){
     color: #FFED52;
-    margin-left: 36vw;
+    margin-left: 10vw;
 }
 
 #page8 button{
-    margin-top: 33vh;
-    margin-left: 40vw;
-    padding: 1vw 2vw;
+    margin-top: 13vh;
+    margin-left: 25vw;
+    padding: 2vw 3vw;
     border-radius: 10px;
-    font-size: 1.5vw;
+    font-size: 5vw;
     border:1px solid #ffffff9e;
     background-color:#122315;
     color: #fff;
@@ -1877,22 +1879,23 @@ background-size: contain;
 
 .footer{
     background-color: #122315;
-    margin-top: 17vh;
+    margin-top: 45vh;
     box-shadow: 0 0 1rem 1rem  #122315;
     display: flex;
     gap: 12vw;
-    height: 37vh;
+    
 }
 
 .footer-left{
     display: flex;
+    
     
 }
 
 .footer-left img{
     margin-right: 3vw;
     margin-left: 4vw;
-    height: 20vh;
+    height: 10vh;
     margin-top: 4vh;
 }
 
@@ -1904,37 +1907,38 @@ background-size: contain;
 
 .footer-left p:nth-child(2){
     text-wrap: nowrap;
-    font-size: 3vw;
+    font-size: 7vw;
     margin-top: 5vh;
+    margin-left: 3vw;
     
 }
 .footer-left p:nth-child(3){
-    margin-top: 13vh;
-    margin-left: -18vw;
-    font-size: 3vw;
+    margin-top: 10vh;
+    margin-left: -42vw;
+    font-size: 7vw;
     text-decoration: underline;
 }
 
 .footer-center p{
     color: #fff;
     font-family: poppins;
-    
-    margin-left: 3vw;
-    margin-top: 2vh;
+    text-wrap: nowrap;
+    margin-left: -60vw;
+    margin-top: 20vh;
 }
 .footer-right{
     margin-right: 10vw;
-    margin-top: 2vh;
+    display: none;
  display: flex;   
- flex-direction: column;
  gap: 1vw;
 }
 .footer-right a{
+    
     text-decoration: none;
     color: #fff;
     font-family: poppins;
     text-wrap: nowrap;
-    
+font-size: 1vw;    
  
 }
 
