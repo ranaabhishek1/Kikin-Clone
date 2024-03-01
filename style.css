@@ -442,6 +442,7 @@ gap: 8vw;
     height: 20vh;
 margin-top: 8vh;    
 margin-left: 2vw;
+opacity: 0;
 }
 
 .page4-left p{
@@ -783,17 +784,20 @@ margin-bottom: 0.5vw;
 
 .image-section1 img{
     height: 30vh;
+    opacity: 0;
 }
 
 
 .image-section1 img:nth-child(1){
     margin-bottom: -30vh;
+    opacity: 0;
 }
 
 .image-section1 img:nth-child(2){
     margin-right: 5vw;
     margin-left: 5vw;
     margin-top: 15vh;
+    opacity: 0;
 }
 
 
@@ -812,6 +816,7 @@ margin-bottom: 0.5vw;
     height: 28vh;
     margin-top: 27vh;
     margin-left: 10vw;
+    opacity: 0;
 }
 
 .image-section2 img:nth-child(1){
